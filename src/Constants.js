@@ -37,15 +37,15 @@ import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.jpg";
 // import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
-// import githubdetLogo from "./assets/work_logo/github_det.png";
-// import csprepLogo from "./assets/work_logo/cs_prep.png";
-// import movierecLogo from "./assets/work_logo/movie_rec.png";
-// import taskremLogo from "./assets/work_logo/task_rem.png";
-// import npmLogo from "./assets/work_logo/npm.png";
-// import webverLogo from "./assets/work_logo/web_dig.png";
-// import cmLogo from "./assets/work_logo/cm.png";
-// import imagesearchLogo from "./assets/work_logo/image_search.png";
-// import removebgLogo from "./assets/work_logo/remove_bg.png";
+import githubdetLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import csprepLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import movierecLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import taskremLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import npmLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import webverLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import cmLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import imagesearchLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
+import removebgLogo from "./assets/work_logo/Screenshot 2025-07-10 114809.png";
 
 export const SkillsInfo = [
   {
@@ -133,6 +133,9 @@ export const experiences = [
       "HTML",
       "CSS",
       "SQL",
+      "Node js",
+      "Express js",
+      "MongoDB",
     ],
   },
   {
@@ -183,19 +186,18 @@ export const education = [
     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
     degree: "CBSE(X), Science with Computer Application",
   },
-];
+];*/
 
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "ChatBot",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+      "A React chatbot using Gemini AI API allows users to chat with an AI model. The React frontend captures user input and sends it to Gemini via API calls. Responses from Gemini are displayed in the chat UI. This setup uses React state hooks for message handling and Axios or Fetch for API communication, creating an interactive AI chatbot experience.",
     image: githubdetLogo,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    github: "https://github.com/kumarmanojgit/chatbaot-web/tree/main/cb",
+    webapp: "https://lighthearted-donut-baf440.netlify.app/",
   },
   {
     id: 1,
@@ -285,4 +287,4 @@ export const projects = [
     github: "https://github.com/codingmastr/Image-Background-Remover",
     webapp: "https://removeyourbg.netlify.app/",
   },
-];*/
+];
